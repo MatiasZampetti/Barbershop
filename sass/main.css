@@ -27,6 +27,8 @@
 
 .pag {
   background-color: rgba(83, 178, 255, 0.39);
+  position: relative;
+  min-height: 100vh;
 }
 
 .titleName {
@@ -61,7 +63,14 @@
   height: auto;
 }
 
-.instagram .instagram-media {
-  display: flex;
-  justify-content: space-between;
+.carousel-inner {
+  margin: 20px;
+}
+
+.reservas {
+  position: absolute;
+  bottom: 0;
+}
+.reservas .line {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

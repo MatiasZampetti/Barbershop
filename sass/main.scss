@@ -1,3 +1,7 @@
+$mobile: (min-width: 578px);
+$tablet: (min-width: 768px);
+$desktop: (min-width: 1200px);
+
 .encabezado {
     display: flex;
     align-items: center;
@@ -27,6 +31,8 @@
 
 .pag {
     background-color: rgba(83, 178, 255, 0.39);
+    position: relative;
+    min-height: 100vh;
 }
 
 .titleName {
@@ -65,7 +71,14 @@
     height: auto;
 }
 
-.instagram .instagram-media {
-    display: flex;
-    justify-content: space-between;
+.carousel-inner {
+    margin: 20px;
+}
+
+.reservas {
+    position: absolute;
+    bottom: 0;
+    .line {
+        width: 100%;
+    }
 }
