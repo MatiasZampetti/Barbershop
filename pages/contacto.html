@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zampetti - Contacto</title>
+    <!-- Title in the window -->
+    <title>Zampetti - Informacion</title>
+    <!-- Meta name -->
+    <meta name="description" content="Zampetti BarberShop es una peluqueria masculina.">
+    <meta name="keywords" content="peluqueria, cabello, cortes, masculino">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <!-- CSS -->
     <link rel="stylesheet" href="../sass/main.css">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,79 +19,81 @@
 </head>
 <body class="pag">
     <header id="encabezado">
-        <div class="encabezado container">
-            <div class="row">
-                <div class="col-md-6">
-                    <a href="../index.html">
-                        <img class="logoPrincipal" src="../img/logo.svg" alt="logo">
+        <header id="encabezado">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img class="logoPrincipal d-inline-block align-text-top" src="../img/logo.svg" alt="logo">
                     </a>
-                </div>
-                <div class="col-md-6">
                     <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid">
-                            <a class="nav-link" href="../index.html">Inicio</a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="./informacion.html">Informacion</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./cortes.html">Cortes</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./reserva.html">Reserva</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                                    </li>
-                                </ul>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                              <a class="nav-link" href="../index.html">INICIO</a>
+                              <a class="nav-link" href="./informacion.html">INFORMACION</a>
+                              <a class="nav-link" href="./cortes.html">CORTES</a>
+                              <a class="nav-link" href="./reserva.html">RESERVAS</a>
+                              <a class="nav-link" href="./contacto.html">CONTACTO</a>
                             </div>
+                          </div>
                         </div>
                     </nav>
                 </div>
-            </div>
+            </nav>
+            <img class="line" src="../img/barberpole.png" alt="lineaSeparacion">
+        </header>
+    <main id="contacto">
+        <div class="titleName">
+            <h1>FORMULARIO DE CONTACTO</h1>
         </div>
-        <img class="line" src="../img/barberpole.png" alt="lineaSeparacion">
-    </header>
-    <main id="formulario">
-        <h2>Formulario</h2>
-        <form action="formulario">
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
-            <br><br>
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Ingrese su email" required>
-            <br><br>
-            <label for="opinion">Opinion</label> <br>
-            <textarea name="opinion" id="opinion" cols="30" rows="10" placeholder="Necesito saber tu critica, opinion o que mejorarias de mi sitio web" required></textarea>
-            <br><br>
-            <input type="submit" value="Enviar">
-            <input type="submit" value="Borrar">
-            <br><br>
-        </form>
+        <div class="contact">
+            <form action="formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Ingrese su email" required>
+                <br><br>
+                <label for="telefono">Telefono</label>
+                <input type="number" id="numero" placeholder="Ingrese su numero de celular" required>
+                <br><br>
+                <label for="opinion">Opinion</label> <br>
+                <textarea name="opinion" id="opinion" cols="30" rows="10" placeholder="Necesito saber tu critica, opinion o que mejorarias de mi sitio web" required></textarea>
+                <br><br>
+                <input type="submit" value="Enviar">
+                <input type="submit" value="Borrar">
+                <br><br>
+            </form>
+        </div>
     </main>
     <footer id="pieDePagina">
-        <img class="line" src="../img/barberpole.png" alt="lineaSeparacion">
-        <div>
-            <p>©Copyright 2023. Todos los derechos reservados.</p>
-            <p>Matias Zampetti.</p>
-        </div>
-        <div class="foot">
-            <a href="https://www.instagram.com/barberclub_vdr/">
-                <img src="../img/ig.svg" alt="instagram">
-            </a>
-            <a href="https://api.whatsapp.com/send/?phone=543573410859&text=Hola.+Quiero+un+turno+&type=phone_number&app_absent=0">
-                <img src="../img/wsp.svg" alt="whatsapp">
-            </a>
+        <div class="footerContent">
+            <img class="line" src="../img/barberpole.png" alt="lineaSeparacion">
+            <div class="container">
+                <div>
+                    <div>
+                        <p class="text-start">© 2023. Todos los derechos reservados.<br>Matias Zampetti.</p>
+                    </div>
+                    <div class="text-start">
+                        <div class="foot">
+                            <a class="ig" href="https://www.instagram.com/barberclub_vdr/" target="_blank">
+                                <img src="../img/ig.svg" alt="instagram">
+                            </a>
+                            <a href="https://api.whatsapp.com/send/?phone=543573410859&text=Hola.+Quiero+un+turno+&type=phone_number&app_absent=0"
+                                target="_blank">
+                                <img class="wsp" src="../img/wsp.svg" alt="whatsapp">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
