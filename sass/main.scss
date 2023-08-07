@@ -31,8 +31,6 @@ $desktop: (min-width: 1200px);
 
 .pag {
     background-color: rgba(83, 178, 255, 0.39);
-    position: relative;
-    min-height: 100vh;
 }
 
 .titleName {
@@ -87,4 +85,27 @@ $desktop: (min-width: 1200px);
 .maps {
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tablaPrecios {
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    td {
+        border: 1px solid black;
+        padding: 10px;
+    }
+}
+
+.formasDePago {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+
+.fotoBarber {
+    width: 100%;
 }
