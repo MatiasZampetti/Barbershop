@@ -26,7 +26,7 @@
 }
 
 .pag {
-  background-color: rgba(83, 178, 255, 0.39);
+  background-color: rgb(173, 229, 255);
 }
 
 .titleName {
@@ -40,7 +40,6 @@
   font-size: 20px;
   margin: 10px;
   text-align: justify;
-  word-spacing: 10px;
 }
 
 .line {
@@ -135,7 +134,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgb(169, 238, 255);
+  background-color: rgb(173, 229, 255);
 }
 
 .formulario {
@@ -149,4 +148,8 @@
 
 .contact {
   margin-left: 20px;
+}
+
+.nav-link {
+  background-color: black;
 }/*# sourceMappingURL=main.css.map */
